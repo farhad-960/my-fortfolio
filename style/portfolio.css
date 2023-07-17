@@ -1,0 +1,43 @@
+/* shaired item */
+.btn-primary {
+    background:#FD6E0A ;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
+/* shaired item */
+
+/* nav style */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 200px;
+}
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.span {
+    color: #FD6E0A;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    /* justify-items: center; */
+    align-items: center;
+}
+nav ul li {
+    padding: 0 10px;
+    justify-items: center;
+    align-items: center;
+
+}
+nav ul li a {
+    text-decoration: none;
+
+}
