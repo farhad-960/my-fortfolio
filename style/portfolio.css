@@ -1,4 +1,8 @@
 /* shaired item */
+body {
+    text-decoration: none;
+    font-family: sans-serif;
+}
 .btn-primary {
     background:#FD6E0A ;
     border: none;
@@ -7,22 +11,33 @@
     font-weight: 700;
     padding: 15px 35px;
 }
+.text-primary{
+    color: #FD6E0A;
+}
+.section-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+.section-description {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+}
 /* shaired item */
 
 /* nav style */
-.nav {
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 200px;
+    margin: 0px 200px;
 }
 .nav-title {
     color: #181818;
     font-size: 45px;
     font-weight: 800;
-}
-.span {
-    color: #FD6E0A;
 }
 
 .nav-list {
@@ -30,12 +45,13 @@
     display: flex;
     /* justify-items: center; */
     align-items: center;
+
 }
 nav ul li {
-    padding: 0 10px;
     justify-items: center;
     align-items: center;
-
+    margin-right: 50px;
+    
 }
 nav ul li a {
     text-decoration: none;
@@ -54,9 +70,6 @@ nav ul li a {
     margin-top: 5px;
     margin-bottom: 20px;
 }
-.banner-paragraph{
-    display: block;
-}
 .banner{
     display: flex;
     padding: 30px 30px 0px 150px;
@@ -69,4 +82,35 @@ nav ul li a {
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, top left;
+}
+
+/* main section design */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* section design */
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info {
+    text-align: center;
+}
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+/* What i do design */
+.skil-des {
+    display: flex;
+    gap: 24px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 6px 50px 0px rgb(236, 150, 150);
 }
