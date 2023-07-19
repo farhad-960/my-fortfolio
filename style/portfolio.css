@@ -41,3 +41,32 @@ nav ul li a {
     text-decoration: none;
 
 }
+/* banner design */
+
+.banner-getting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-tilte{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-paragraph{
+    display: block;
+}
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header design */
+.header{
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right, top left;
+}
